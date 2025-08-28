@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>job application form </title>
+    </head>
+    <body>
+        <h1>job application</h1>
+        <form>
+            <fieldset>
+                <legend> Personal Information</legend>
+                 FULL NAME: &nbsp;<input type="text" name="full name"><br><br>
+                 EMAIL: &nbsp;      <input type="email" name="email"><br><br>
+                 PHONE NUMBER: &nbsp;<input type="tel" name="phone"><br><br>
+                 DOB: &nbsp;<input type="date" name="dob"><br><br>
+                 GENDER: &nbsp;<input type="radio" name="gender" value="male">
+                <input type="radio" name="gender" value="female">
+                <input type="radio" name="gender" value="others">
+            </fieldset>
+            <fieldset>
+                <legend> application details</legend>
+              <select id="position" name="position" required>
+                 <option value> .........pleas choose an option</option>
+                 <option value="software engineer">software engineer</option>
+                 <option value="project manager">project manager</option>
+                 <option value="data analiyst">data analiyst</option>
+                 <option value="others">others</option>
+                </select><br>
+                EXPRIENCE: &nbsp;<input type="number" name="exprience" min="0"><br><br>
+                <textarea id="coverletter" name="coverletter" row="5" cols="40"> </textarea><br><br>
+                TERMS: &nbsp;<input type="checkbox" name=" terms" value="accepetd">
+            </fieldset>    
+            &nbsp;     <input type="submit" value="submit applicationa">
+        </form>
+    </body>
+</html>
